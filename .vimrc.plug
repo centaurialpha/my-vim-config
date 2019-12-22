@@ -1,0 +1,10 @@
+call plug#begin('~/.vim-pluggins')
+
+Plug 'tpope/vim-fugitive'
+Plug 'vim-scripts/indentpython'
+Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'vim-python/python-syntax'
+Plug 'airblade/vim-gitgutter'
+Plug 'vim-airline/vim-airline'
+Plug 'davidhalter/jedi-vim'
+call plug#end()
